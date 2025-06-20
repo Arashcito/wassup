@@ -1,8 +1,9 @@
 
-WASSUP chat app 
+# WASSUP chat app 
+
 A **multi-threaded** GUI chat application with client-server architecture, built with Java Swing.
 
-Features
+## Features
 - Real-time messaging
 - Multi-user support
 - Simple GUI interface
@@ -13,10 +14,11 @@ Features
 1. **Compile**:
    ```bash
    javac -d bin src/server/*.java src/client/*.java'
-
-HOW TO RUN : 
-    java -cp bin server.Main  
-  then ; 
+   
+2. **Start Server**:
+    java -cp bin server.Main
+   
+4. **Start Client**:
     java -cp bin client.Main
 
 MORE UPDATES ON THE WAY... 
