@@ -16,9 +16,11 @@ A **multi-threaded** GUI chat application with client-server architecture, built
    javac -d bin src/server/*.java src/client/*.java'
    
 2. **Start Server**:
+   ```bash
     java -cp bin server.Main
    
-4. **Start Client**:
+3. **Start Client**:
+   ```bash
     java -cp bin client.Main
 
 MORE UPDATES ON THE WAY... 
